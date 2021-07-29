@@ -54,14 +54,14 @@ const Header = ({ siteTitle }) => (
                               </div>
                           </div>
                           <div className="hidden md:flex md:items-center md:space-x-6">
-                              <a href="#" className="text-base font-medium text-white hover:text-gray-300">
-                                  Log in
-                              </a>
+                              <Link to="/login/" className="text-base font-medium text-white hover:text-gray-300">
+                                  Мій Кабінет
+                              </Link>
                               <a
                                   href="#"
                                   className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
                               >
-                                  Start free trial
+                                  Замовити підключення
                               </a>
                           </div>
                       </nav>
