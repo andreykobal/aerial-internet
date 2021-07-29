@@ -14,8 +14,7 @@ const navigation = [
 ]
 
 const Header = ({ siteTitle }) => (
-  <header>
-      <Popover as="header" className="relative">
+      <Popover as="header" className="relative shadow-md sticky top-0 z-50">
           {({ open }) => (
               <>
                   <div className="bg-gray-900 py-6">
@@ -32,7 +31,7 @@ const Header = ({ siteTitle }) => (
                                           src="https://tailwindui.com/img/logos/workflow-mark-teal-200-cyan-400.svg"
                                           alt=""
                                       />
-                                      <p className="text-white">{siteTitle}</p>
+                                      {/*<p className="text-white">{siteTitle}</p>*/}
                                   </Link>
                                   <div className="-mr-2 flex items-center md:hidden">
                                       <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white">
@@ -91,7 +90,7 @@ const Header = ({ siteTitle }) => (
                                           src="https://tailwindui.com/img/logos/workflow-mark-teal-500-cyan-600.svg"
                                           alt=""
                                           />
-                                          <p>{siteTitle}</p>
+                                          {/*<p>{siteTitle}</p>*/}
                                       </Link>
                                   </div>
                                   <div className="-mr-2">
@@ -136,7 +135,6 @@ const Header = ({ siteTitle }) => (
               </>
           )}
       </Popover>
-  </header>
 )
 
 Header.propTypes = {

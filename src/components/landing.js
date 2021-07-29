@@ -40,38 +40,39 @@ import {
     XIcon,
 } from '@heroicons/react/outline'
 import { ChevronRightIcon, ExternalLinkIcon } from '@heroicons/react/solid'
+import Form from './form'
 
 
 const features = [
     {
-        name: 'Push to Deploy',
-        description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.',
+        name: 'Швидкісний та надійний',
+        description: 'Наші користвувачі обирють інтернет iRealgit config --global user.name, він ідеально підходіть для стрімінгу, медіа, онлайн ігор, перегляду відео у 4к',
         icon: CloudUploadIcon,
     },
     {
-        name: 'SSL Certificates',
-        description: 'Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.',
+        name: 'Підключення ТV',
+        description: 'Наші користвувачі обирють інтернет iRealgit config --global user.name, він ідеально підходіть для стрімінгу, медіа, онлайн ігор, перегляду відео у 4к',
         icon: LockClosedIcon,
     },
     {
-        name: 'Simple Queues',
-        description: 'Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.',
+        name: 'Потужний 5G Wi-Fi роутер у комплекті',
+        description: 'Наші користвувачі обирють інтернет iRealgit config --global user.name, він ідеально підходіть для стрімінгу, медіа, онлайн ігор, перегляду відео у 4к',
         icon: RefreshIcon,
     },
     {
-        name: 'Advanced Security',
-        description: 'Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.',
+        name: 'Онлайн-підтримка 24/7',
+        description: 'Наші користвувачі обирють інтернет iRealgit config --global user.name, він ідеально підходіть для стрімінгу, медіа, онлайн ігор, перегляду відео у 4к',
         icon: ShieldCheckIcon,
     },
     {
-        name: 'Powerful API',
+        name: 'Оплата частинами',
         description:
-            'Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.',
+            'Наші користвувачі обирють інтернет iRealgit config --global user.name, він ідеально підходіть для стрімінгу, медіа, онлайн ігор, перегляду відео у 4к',
         icon: CogIcon,
     },
     {
-        name: 'Database Backups',
-        description: 'Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.',
+        name: 'Підключення оптоволоконним кабелем ',
+        description: 'Наші користвувачі обирють інтернет iRealgit config --global user.name, він ідеально підходіть для стрімінгу, медіа, онлайн ігор, перегляду відео у 4к',
         icon: ServerIcon,
     },
 ]
@@ -163,7 +164,7 @@ export default function Landing() {
                       </span>
                                         </h1>
                                         <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-                                            Інтернет до 1 Гбіт/с – підключення оптоволоконним кабелем за технологією xPon – потужний 5G WiFi роутер – оплата частинами – онлайн підтримка 24/7
+                                            Інтернет зі швидкістю до 1 Гбіт/с у Мукачево – потужний 5G WiFi роутер – оплата частинами – онлайн підтримка 24/7 – підключення оптоволоконним кабелем за технологією xPon
                                         </p>
                                         <div className="mt-10 sm:mt-12">
                                             <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
@@ -175,7 +176,7 @@ export default function Landing() {
                                                         <input
                                                             id="email"
                                                             type="email"
-                                                            placeholder="Вкажіть ваш номер телефону"
+                                                            placeholder="Введіть ваш номер телефону"
                                                             className="block w-full px-4 py-3 rounded-md border-0 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-400 focus:ring-offset-gray-900"
                                                         />
                                                     </div>
@@ -215,40 +216,16 @@ export default function Landing() {
                         </div>
                     </div>
 
-                    {/* Feature section with screenshot */}
-                    <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
-                        <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
-                            <div>
-                                <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Serverless</h2>
-                                <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                                    No server? No problem.
-                                </p>
-                                <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                                    Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-                                    malesuada. Eleifend condimentum id viverra nulla.
-                                </p>
-                            </div>
-                            <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
-                                <img
-                                    className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
-                                    src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
-                                    alt=""
-                                />
-                            </div>
-                        </div>
-                    </div>
 
                     {/* Feature section with grid */}
                     <div className="relative bg-white py-16 sm:py-24 lg:py-32">
                         <div className="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-                            <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Deploy faster</h2>
+                            <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Неймовірна швидкість</h2>
                             <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                                Everything you need to deploy your app
+                                Чому обирають наш інтернет?
                             </p>
                             <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
-                                Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
-                                malesuada. Eleifend condimentum id viverra nulla.
-                            </p>
+                                Якість зв'язку нашого інтернету щороку проходить перевірку УДЦР, технічна підримка працює онлайн цілодобово, замовивши підлючення до Інтернету iReal, ви додатково отримаєте потужний WiFi роутер та підключення онлайн TV.                            </p>
                             <div className="mt-12">
                                 <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
                                     {features.map((feature) => (
@@ -313,8 +290,34 @@ export default function Landing() {
                         </div>
                     </div>
 
+
+
+{/*                    <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
+                        <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
+                            <div>
+                                <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Serverless</h2>
+                                <p className="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
+                                    No server? No problem.
+                                </p>
+                                <p className="mt-5 max-w-prose mx-auto text-xl text-gray-500">
+                                    Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper
+                                    malesuada. Eleifend condimentum id viverra nulla.
+                                </p>
+                            </div>
+                            <div className="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
+                                <img
+                                  className="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5"
+                                  src="https://tailwindui.com/img/component-images/green-project-app-screenshot.jpg"
+                                  alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>*/}
+
+                    <Form />
+
                     {/* Blog section */}
-                    <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
+{/*                    <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
                         <div className="relative">
                             <div className="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
                                 <h2 className="text-base font-semibold tracking-wider text-cyan-600 uppercase">Learn</h2>
@@ -326,6 +329,7 @@ export default function Landing() {
                                     malesuada. Eleifend condimentum id viverra nulla.
                                 </p>
                             </div>
+
                             <div className="mt-12 mx-auto max-w-md px-4 grid gap-8 sm:max-w-lg sm:px-6 lg:px-8 lg:grid-cols-3 lg:max-w-7xl">
                                 {blogPosts.map((post) => (
                                     <div key={post.id} className="flex flex-col rounded-lg shadow-lg overflow-hidden">
@@ -368,7 +372,7 @@ export default function Landing() {
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
 
                     {/* CTA Section */}
                     <div className="relative bg-gray-900">
@@ -386,13 +390,11 @@ export default function Landing() {
                         <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
                             <div className="md:ml-auto md:w-1/2 md:pl-10">
                                 <h2 className="text-base font-semibold uppercase tracking-wider text-gray-300">
-                                    Award winning support
+                                    Залишились запитання?
                                 </h2>
-                                <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">We’re here to help</p>
+                                <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">Ми будемо раді допомогти </p>
                                 <p className="mt-3 text-lg text-gray-300">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-                                    scelerisque amet ullamcorper eu enim et fermentum, augue. Aliquet amet volutpat quisque ut interdum
-                                    tincidunt duis.
+                                    Ви можете отримати безкоштовну консультацію, наш менеджер відповість на ваші запитання стосовно ціни, підключення, оплати, юридичних питань
                                 </p>
                                 <div className="mt-8">
                                     <div className="inline-flex rounded-md shadow">
@@ -400,7 +402,7 @@ export default function Landing() {
                                             href="#"
                                             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50"
                                         >
-                                            Visit the help center
+                                            Отримати безкоштовну консультацію
                                             <ExternalLinkIcon className="-mr-1 ml-3 h-5 w-5 text-gray-400" aria-hidden="true" />
                                         </a>
                                     </div>
